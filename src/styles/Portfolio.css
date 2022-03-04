@@ -1,0 +1,84 @@
+:root
+{
+    --primary-color: #308654;
+}
+.portfolio
+{
+    display: flex;
+    justify-content: center;
+}
+.grid
+{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 310px 310px 310px;
+    grid-gap:20px;
+}	
+.box 
+{
+    
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+}
+
+.box1 { background-image: url("../assets/images/codequiz.jpeg"); }
+
+.box2 { background-image: url("../assets/images/insomniacs.jpeg"); }
+
+.box3 { background-image: url("../assets/images/weather.jpeg"); }
+
+.box4 { background-image: url("../assets/images/day-scheduler.jpeg"); }
+
+.box5 { background-image: url("../assets/images/password-generator.jpeg"); }
+
+
+
+.img-description
+{
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;    
+}
+.project-title-container
+{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box:hover .img-description
+{
+    visibility: visible;
+    opacity: .6;
+}
+.img-description:hover .project-title:hover, .img-description:hover img:hover
+{
+    opacity: 1;
+    color: var(--dark-night);
+    font-weight: bold;
+}
+.project-title, img
+{
+    opacity: .6;
+}
+.project-title-container a
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+	font-family: sans-serif;
+    color: var(--dark-night);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.project-title-container img
+{
+    margin-top: 7px;
+}

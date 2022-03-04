@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --primary-color: #308654;
+}
+.main-container
+{
+    width: 100%;
+    height: 100vh;   
+}
+
+.inner-container
+{
+    height: 80%;
+    width: 80%;
+}
+
+.title-container
+{
+    width:100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle
+{
+    color: black;
+    text-transform: capitalize;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.status
+{
+    color: black;
+    text-transform: capitalize;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.form 
+{    
+    width:45%;
+    height: 85%;
+}
+
+.name-container
+{
+    
+    width: 100%;
+}
+
+.nameInput-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+  
+.nameInput-container input 
+{
+    display: block;
+    width: 200px;
+}
+
+.email-container input 
+{
+    display: block;
+    width: 100%;
+}
+
+.message-container textarea
+{
+    display: block;
+    width: 100%;
+    height: 40vh;
+}
+
+.black
+{
+    color: black;
+}
