@@ -9,17 +9,17 @@ export default function Footer() {
     return (
         <div className="footer-container">
             <div className="icon-container">
-                <a href="https://github.com/acromarti01">
+                <a href="https://github.com/CaitKidd">
                     <img className="github-icon" src={gitHubIcon} alt="GitHub Icon" />
                 </a>
             </div>
             <div className="icon-container">
-                <a href="https://www.linkedin.com/in/anthony-c-07985b140">
+                <a href="https://www.linkedin.com/in/caitlyn-kidd/">
                     <img className="linkedin-icon" src={linkedinIcon} alt="Linkedin Icon" />
                 </a>
             </div>
             <div className="icon-container">
-                <a href="https://stackoverflow.com/users/17146896/acromarti">
+                <a href="https://stackoverflow.com/users/17198091/aciremaniatpac">
                     <img className="stackoverflow-icon" src={stackoverflowIcon} alt="Stackoverflow Icon" />
                 </a>
             </div>            
