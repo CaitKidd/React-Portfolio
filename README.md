@@ -1,11 +1,11 @@
 <h1 align="center">React Portfolio</h1>
    
 <p align="center">
-    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/react-yellow" />
     <img src="https://img.shields.io/badge/jQuery-blue"  />
     <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-inquirer-red" >
-    <img src="https://img.shields.io/badge/-json-orange" />
+    <img src="https://img.shields.io/badge/-npm-red" >
+    <img src="https://img.shields.io/badge/-yarn-orange" />
 </p>
 
 ## Table of Contents
