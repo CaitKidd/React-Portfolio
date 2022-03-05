@@ -5,7 +5,12 @@
 }
 :root
 {
-    --primary-color: #308654;
+    --deep-aqua: #003B46;
+    --ocean: #07575B;
+    --wave: #66A5AD;
+    --sea-foam: #C4DFE6;
+    --light-night: #295161;
+    --dark-night: #02070d;
 }
 .main-container
 {

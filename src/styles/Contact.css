@@ -5,7 +5,12 @@
 }
 :root
 {
-    --primary-color: #308654;
+    --deep-aqua: #003B46;
+    --ocean: #07575B;
+    --wave: #66A5AD;
+    --sea-foam: #C4DFE6;
+    --light-night: #295161;
+    --dark-night: #02070d;
 }
 .main-container
 {
@@ -30,14 +35,14 @@
 
 .subtitle
 {
-    color: black;
+    color: white;
     text-transform: capitalize;
     padding-top:5px;
     padding-bottom: 5px;
 }
 .status
 {
-    color: black;
+    color: white;
     text-transform: capitalize;
     padding-top:10px;
     padding-bottom: 10px;
@@ -81,7 +86,7 @@
     height: 40vh;
 }
 
-.black
+.white
 {
-    color: black;
+    color: white;
 }

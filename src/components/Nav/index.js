@@ -6,7 +6,7 @@ export default function Nav({ currentPage, handlePageChange }) {
     <header>
       <div className="inner-header">
         <div className="logo-container">
-          <p className="myName">Anthony</p>
+          <p className="myName">Caitlyn Kidd</p>
         </div>
         <div className="nav-container">
           <ul>

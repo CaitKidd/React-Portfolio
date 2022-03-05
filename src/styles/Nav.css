@@ -1,12 +1,17 @@
 :root
 {
-    --primary-color: #072d41;
+    --deep-aqua: #003B46;
+    --ocean: #07575B;
+    --wave: #66A5AD;
+    --sea-foam: #C4DFE6;
+    --light-night: #295161;
+    --dark-night: #02070d;
 }
 header
 {
     width: 100%;
     height: 150px;
-    background-image: url("../assets/images/meteor-shower.jpg");
+    background-image: url("../assets/images/download.jpeg");
     background-size: cover;
     background-position: center;  
     display: flex;
@@ -31,7 +36,7 @@ header
 
 .logo-container p
 {
-    color: black;
+    color: white;
     font-size: 70px;
 }
 
@@ -51,11 +56,11 @@ header
 .nav-container .links a
 {
     font-size: 25px;
-    color:black;
+    color:white;
     text-decoration: none;
     text-transform: capitalize;
 }
 .active
 {
-    background-color: darkgrey;
+    background-color: darkblue;
 }

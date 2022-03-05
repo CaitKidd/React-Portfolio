@@ -1,6 +1,11 @@
 :root
 {
-    --primary-color: #308654;
+    --deep-aqua: #003B46;
+    --ocean: #07575B;
+    --wave: #66A5AD;
+    --sea-foam: #C4DFE6;
+    --light-night: #295161;
+    --dark-night: #02070d;
 }
 .portfolio
 {
@@ -31,8 +36,6 @@
 .box4 { background-image: url("../assets/images/day-scheduler.jpeg"); }
 
 .box5 { background-image: url("../assets/images/password-generator.jpeg"); }
-
-
 
 .img-description
 {
